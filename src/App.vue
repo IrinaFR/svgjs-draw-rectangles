@@ -93,7 +93,6 @@
 				this.settings.svgHeight = image.height
 
 				this.$_edit_setupDrawing();
-				this.$_edit_getData()
 			},
 			$_edit_setupDrawing() {
 				this.svg = SVG(this.$refs.svgContainer).size(this.settings.svgWidth, this.settings.svgHeight)
